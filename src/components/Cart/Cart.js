@@ -42,7 +42,7 @@ const handleBuy = async () => {
 const showTable =  cart.length > 0
 
     return ( 
-        <Container>
+        <Container className="cartContainer">
             <h1>Carrito de compras</h1>
             {showTable && (
                 <>
