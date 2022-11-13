@@ -1,9 +1,9 @@
 .itemCountContainer { 
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items:center;
 }
-
-.quantityNumber {
+.itemCountContainer div {
     display: flex;
 }

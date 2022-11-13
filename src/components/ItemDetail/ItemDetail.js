@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import CartContext from "../../contexts/CartContext";
 import ItemCount from "../ItemCount/ItemCount";
 import Item from "../ItemList/Item";
-
+import './ItemDetail.css';
 
 
 const ItemDetail = ({product}) => {

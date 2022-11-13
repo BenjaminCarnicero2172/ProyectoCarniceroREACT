@@ -69,7 +69,10 @@ const showTable =  cart.length > 0
                 </tbody>
             </Table>
             <h3>Total: $ {total}</h3>
-            <Button variant="success" onClick={handleOpen}>Comprar</Button>
+            <Link to='/'>
+                    <Button variant="success">Seguir comprando</Button>
+                </Link>
+            <Button variant="success" onClick={handleOpen}>Finalizar Compra</Button>
                 </>
             )}
             {!showTable && (

@@ -11,7 +11,7 @@ Este proyecto fue creado con:
 [localhost:3000/](http://localhost:3000/)
 
 ### Demo
-##aqui va el gif no olvidar 1.36mins
+![](https://firebasestorage.googleapis.com/v0/b/coderhouse-celulares.appspot.com/o/navegacion.gif.gif?alt=media&token=41a04314-4b52-4235-8e1f-2a949849e382)
 
 ## Estructura de directorios
 

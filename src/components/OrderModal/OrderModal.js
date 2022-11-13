@@ -9,17 +9,17 @@ const OrderModal = ({showModal, onClose, onBuy, orderId}) => {
         <Modal.Title>Finalizar compra</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Group className="mb-3" controlId="formBasicEmail" >
             <Form.Label>Email</Form.Label>
-            <Form.Control type="email" placeholder="Ingrese su email" />
+            <Form.Control type="email" placeholder="Ingrese su email" required />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Group className="mb-3" controlId="formBasicName">
             <Form.Label>Nombre</Form.Label>
-            <Form.Control type="text" placeholder="Ingrese su nombre" />
+            <Form.Control type="text" placeholder="Ingrese su nombre" required />
         </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form.Group className="mb-3" controlId="formBasic">
             <Form.Label>Telefono</Form.Label>
-            <Form.Control type="text" placeholder="Ingrese su telefono" />
+            <Form.Control type="text" placeholder="Ingrese su telefono" required />
         </Form.Group>
         </Modal.Body>
         <Modal.Footer>
@@ -37,6 +37,13 @@ const OrderModal = ({showModal, onClose, onBuy, orderId}) => {
             {orderId && (
                 <div className="footerOrderSuccess">
                  <Alert key='success' variant='success'>
+                 <Alert.Heading>Felicidades! Tu compra ha sido realizada</Alert.Heading>   
+      <hr />
+      <p className="mb-0">
+      Te enviaremos un correo con toda la informacion de tu producto/s.
+
+Tu código de referencia es:
+      </p>
                     {orderId}
                 </Alert>
             <Link to='/'>
